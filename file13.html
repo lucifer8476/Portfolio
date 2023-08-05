@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<p id="p1" >this is my para</p>
+<body>
+    <script>
+        let i=0;
+     setInterval(display,1000);
+     function display(){
+        let d =new Date();
+        document.getElementById("p1").innerText=i++;
+        d.getHours()+ " : " + d.getMinutes()+ " : "+ d.getSeconds();
+     }
+    
+    </script>
+
+
+
+
+
+
+
+
+</body>
+</html>

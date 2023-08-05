@@ -1,0 +1,77 @@
+   body{
+      background-color: green;
+      margin-left: 126px;
+      margin-right: 126px;
+
+}
+
+.navbar{
+   background-color: black;
+   border-radius: 15px;
+   
+}
+.navbar li{
+   margin: 7px 10px;
+   color: white;
+   float: left;
+   list-style: none;
+   padding: 10px;
+}
+.navbar ul{
+   overflow: auto;
+}
+.navbar li a{
+   text-decoration: none;
+   color: white;
+   
+}
+.search{
+   float: right;
+   padding: 15px 75px;
+   border-radius: 15px;
+
+}
+.navbar input{
+   border-radius: 11px;
+   padding: 4px 80px;
+}
+ .navbar li a:hover{
+   color: chartreuse;
+}
+
+
+img{
+   width: 1093px;
+   height: 500px;
+   border-radius: 10px;
+}
+
+.XYZ{
+    
+   display: flex;
+   justify-content: center;
+   margin-top: 30px;
+
+}
+
+.ABC{
+  /* border: 2px solid black;  */
+   margin: 2px;
+   background-color: white;
+}
+
+#para1{
+   width: 1000%;
+}
+
+#pqr{
+   display: flex;
+   justify-content: center;
+
+   margin-top: 30px;
+}
+.hello{
+  /* border: 2px solid black;  */
+   margin: 5px;
+  background-color: white;
+}

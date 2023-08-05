@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="h1" onmouseover="abc(this)" onmouseout="abc1(this)" >Hello</h1>
+    <p id="p1" onclick="abc(this)">My name is Mukul</p>
+    <img src="img/bike1.jpeg" onclick="abc(this)" alt="">
+
+
+
+    <script>
+        function abc(x){
+          x.innerText="hyyy";
+          x.style.color="red";
+        }
+
+        function abc1(y){
+            y.style.color="black";
+            y.innerText="Hello";
+        }
+    </script>
+</body>
+</html>
